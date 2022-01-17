@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="어사">
+        <menu>
+            <item
+                android:id="@+id/어사"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="어색한 친구"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="짱친">
+     <menu>
+         <item
+             android:id="@+id/짱친"
+              android:icon="@android:drawable/ic_menu_share"
+              android:title="짱 친한 친구"/>
+     </menu>
+    </item>
+    <item
+        android:id="@+id/평친"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="평친">
+        <menu>
+            <item
+                android:id="@+id/보기"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="평생 친구"/>
+        </menu>
+    </item>
+
+</menu>

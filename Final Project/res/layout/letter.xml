@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:background="#FFFFCC">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#99CCCC"
+        android:text="편지를 읽기 전에 눌러주세요"></Button>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#99CCCC"
+        android:text="중지"></Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교수님 안녕하세요! 교수님 평친 조윤빈입니다. 저번 문제가 많이 쉬웠으니까 이번에 일부로 좀 어려운 문제들을 내봤습니다! 그래도 교수님께서 ‘윤빈이를 맞춰라’ 결과가 평친으로 나오길 기도하고 있어요. 저는 교수님 수업을 들을 때가 제일 마음이 편하고 재미있었어요. 저랑 개그코드가 제일 잘 맞는 분이었고요. 교수님이라는 호칭을 들었을 때는 딱딱한 느낌이 같이 따라오기 마련인데, 진섭 교수님은 오히려 더 편하고, 부드럽게 대해주셔서 너무 좋았어요. 지금까지 다른 교수님들과 식사를 했을 때, 항상 긴장하고 식사를 했었어요. 하지만 진섭교수님한테는 먼저 같이 점심먹자고 할 정도로 편했고, 같이 밥 먹은 날 너무 재미있었어요! 이제는 3학년 수업을 맡지 않으시고, 저도 1년 휴학을 하면서 수업에서 만나지 못한다는게 너무 아쉬워요. 휴학하면 아마 교수님의 개그가 가장 그리울 것 같아요! 2년 동안 코딩에 ‘코’자도 모르는 저를 잘 이끌어주셔서 감사합니다. 덕분에 요즘에는 코딩에 대한 재미도 붙고 코딩 공부도 혼자 하기 시작했어요! 올 해 크리스마스 따뜻하고 행복하게 보내세요! 이번 한 학기동안 수고 많으셨습니다! 우주 최강 교수님 한교수님! 짱! 제 전화번호는 010-6865-6177"/>
+
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#99CCCC"
+        android:onClick="call"
+        android:text="윤빈이한테 전화하기"></Button>
+</LinearLayout>
